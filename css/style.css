@@ -1,0 +1,127 @@
+
+
+footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+}
+pre{
+    font-size: 12px;
+
+}
+
+.container{
+    /* min-height: calc(200vh - 56px - 111.6px - 15vh); */
+    min-height: 1000px;
+    background-color: white;
+}
+
+.belownav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-color: honeydew; */
+}
+.belownav1:hover{
+    color: blue;
+}
+.belownav2:hover{
+    color: blue;
+}
+.belownav3:hover{
+    color: blue;
+}
+.belownav4:hover{
+    color: blue;
+}
+.belownav5:hover{
+    color: blue;
+}
+.belownav6:hover{
+    color: blue;
+}
+.belownav7:hover{
+    color: blue;
+}
+.belownav8:hover{
+    color: blue;
+}
+.belownav9:hover{
+    color: blue;
+}
+.topOffer,.home , .applience ,.beauty , .grocery ,.mobiles ,.electronics ,.fashion ,.travel{
+    display: flex;
+    justify-content: center;
+}
+#topOffer,#home , #applience ,#beauty , #grocery ,#mobiles ,#electronics ,#fashion ,#travel{
+    height: 64px;
+    width: 64px;
+}
+#beauty{
+    margin: 0px 33px;
+}
+#electronics{
+    margin: 0px 15px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#img1{
+    width: 99%;
+    /* height: 276px; */
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 8px;
+    height: 62px;
+    align-items: center;
+    padding: 0px 30px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.lower{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    align-items: flex-end;
+}
+.imgfirst , .imgsecond , .imgthird , .imgfourth{
+    margin-bottom: 31px;
+}
+.first:hover , .second:hover ,.third:hover , .fourth:hover , .fifth:hover , .sixth:hover , .seventh:hover{
+    transform: translateX(1px);
+}
+.problem1{
+    padding-left: 16px;
+}
+.footwear1{
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.footwear2{
+    color: green;
+}
+.footwear3{
+    color: rgb(126, 123, 123);
+}
+.marginbottom31px{
+    margin-bottom: 31px;
+}
+#six{
+    padding-left: 55px;
+}
+#seven{
+    padding-left: 19px;
+    padding-bottom: 30px;
+}

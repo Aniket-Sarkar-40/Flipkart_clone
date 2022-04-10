@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Merriweather:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+
+header{
+    height: 56px;
+    background-color: #2874f0;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 23px;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav ul li{
+    list-style: none;
+
+}
+.logo img{
+    width: 79px;
+    /* margin-right: 294px; */
+}
+.logo a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    height: 56px;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    z-index: 1;
+}
+
+#belowLogo{
+    font-style: italic;
+    font-size: 11px;
+    color: white;
+    
+}
+#belowLogo:hover{
+    
+    text-decoration: underline;
+}
+#belowLogo #plus{
+    color: #ffe500;
+}
+#belowLogo #plusimg{
+    width: 12px;
+}
+.logoandsearch{
+    display: flex;
+}
+
+#searchBar{
+    margin-left: 15px;
+    height: 33px;
+    width: 556px;
+    padding-left: 10px;
+}
+#icon{
+    width: 35px;
+    position: relative;
+    top: 7px;
+    right: 42px;
+}
+#icon:hover{
+    cursor:pointer;
+    
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 15vh; */
+}
+.btn{
+    width: 88px;
+    height: 60%;
+    background-color: #2874f0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+    font-size: 15px;
+}

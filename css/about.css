@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Merriweather:ital,wght@1,300&family=Roboto&display=swap');
+
+.belowNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0px 150px;
+}
+.belowNav #elements{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+.belowNav #elements:hover{
+    color: #2874f0;
+}

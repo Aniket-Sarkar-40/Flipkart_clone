@@ -1,0 +1,130 @@
+@media screen and (max-width: 1240px) {
+    #searchBar{
+        width:35vw;
+    }
+    .lower{
+        /* overflow: scroll; */
+        flex-wrap: wrap;
+
+    }
+    .imgfirst , .imgsecond , .imgthird , .imgfourth , .imgfifth , .imgsixth , .imgseventh{
+        width: 105px;
+        /* height: 180px; */
+    }
+    .first , .second , .third , .fourth , .fifth , .sixth , .seventh{
+        margin: 7px 5vw;
+    }
+    .problem1{
+        width: 75px;
+    }
+    .problem2{
+        width: 28px;
+    }
+    .footwear1 , .footwear2 , .footwear3{
+        font-size: 12px;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .belownav{
+        font-size: 11px;
+        margin: 15px auto;
+    }
+    #searchBar{
+        width:27vw;
+        padding: 2%;
+        height: 23px;
+    }
+    #icon{
+        right: 31px;
+    }
+    #topOffer,#home , #applience ,#beauty , #grocery ,#mobiles ,#electronics ,#fashion ,#travel{
+        height: 48px;
+        width: 48px;
+    }
+    .belownav1 , .belownav2 , .belownav3 , .belownav4 , .belownav5 , .belownav6 , .belownav7{
+        margin: 0px 7px;
+    }
+    nav ul{
+        font-size: 14px;
+    }
+    .logo img {
+        width: 65px;
+    }
+    #belowLogo{
+        font-size: 9px;
+    }
+    #belowLogo #plusimg {
+        width: 10px;
+    }
+    nav ul li a{
+        margin: 0px 15px;
+    }
+    nav{
+        justify-content: normal;
+
+    }
+    .logo{
+        margin-left: 20vw;
+    }
+    #img1{
+        height: 229px;
+    }
+}
+@media screen and (max-width: 690px) {
+    header{
+        height: 93px;
+    }
+    nav{
+        flex-direction: column;
+        height: 88px;
+    }
+    .logo{
+        margin-left: -4vw;
+        margin-right: 6px;
+    }
+    #searchBar{
+        width: 41vw;
+        height: 19px;
+    }
+    .logoandsearch{
+        align-items: center;
+        height: 83px;
+    }
+    #icon {
+        right: 30px;
+        top: 1px;
+    }
+    .upper{
+        font-size: 17px;
+    }
+    .btn {
+        width: 73px;
+        height: 53%;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth, .seventh {
+        margin: 10px 5vw;
+    }
+    #seven{
+        padding-bottom: 0px;
+    }
+    #img1{
+        height: 150px;
+    }
+    #topOffer, #home, #applience, #beauty, #grocery, #mobiles, #electronics, #fashion, #travel {
+        height: 28px;
+        width: 28px;
+    }
+    .belownav {
+        font-size: 9px;
+        overflow: scroll;
+    }
+    .belownav1, .belownav2, .belownav4, .belownav5, .belownav6, .belownav7 ,.belownav8 {
+        margin: 0px 16px;
+    }
+    .belownav3{
+        margin: 0px 16px 0px 30px;
+    }
+}
